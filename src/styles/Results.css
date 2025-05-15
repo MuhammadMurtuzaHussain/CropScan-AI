@@ -1,0 +1,76 @@
+.results-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.results-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.results-message {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.result-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-box h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.healthy {
+    color: #2ecc71;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.unhealthy {
+    color: #e74c3c;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.recommendations {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.recommendations h3 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.recommendations ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.recommendations li {
+    color: #666;
+    margin: 8px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.recommendations li:before {
+    content: "•";
+    color: #e74c3c;
+    position: absolute;
+    left: 0;
+}

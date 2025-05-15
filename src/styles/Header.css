@@ -1,0 +1,24 @@
+.header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px; /* Some padding */
+    text-align: center; /* Centered text */
+    font-size: 24px; /* Larger font size */
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+.header-description {
+    font-size: 16px; /* Smaller font size for description */
+    margin-top: 10px; /* Space above the description */
+}
