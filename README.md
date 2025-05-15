@@ -1,60 +1,86 @@
 # CropScanAI
 
-CropScanAI is a simple and lightweight web application that allows users to upload images of crops and receive feedback on their health status using AI analysis.
+A web application that analyzes crop images using AI to determine crop health status. Built with React.js and Node.js, powered by Google Cloud Vertex AI.
 
 ## Features
 
-- User-friendly interface for uploading crop images.
-- AI analysis to determine whether the crop is healthy or not.
-- Responsive design for optimal viewing on various devices.
+- 📷 Upload crop images
+- 🔍 AI-powered crop health analysis
+- 📊 Confidence score display
+- 💡 Health recommendations
+- 🎯 Simple and intuitive interface
 
-## Getting Started
+## Prerequisites
 
-### Prerequisites
+Before running the application, make sure you have:
 
-- Node.js (version 14 or higher)
+- Node.js (v14 or higher)
 - npm (Node Package Manager)
+- Google Cloud CLI installed
+- Access to Google Cloud Vertex AI
 
-### Installation
+## Project Setup
 
 1. Clone the repository:
-
-   ```
-   git clone https://github.com/yourusername/cropscan-ai.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```
-   cd cropscan-ai
-   ```
-
-3. Install the dependencies:
-
-   ```
-   npm install
-   ```
-
-### Running the Application
-
-To start the development server, run:
-
+```bash
+git clone https://github.com/yourusername/cropscan-ai.git
+cd cropscan-ai
 ```
+
+2. Install dependencies:
+```bash
+# Install frontend dependencies
+npm install
+
+# Install backend dependencies
+cd backend
+npm install
+```
+
+3. Configure Google Cloud:
+```bash
+# Login to Google Cloud
+gcloud auth login
+
+# Set your project
+gcloud config set project crop-scan-ai
+```
+
+## Running the Application
+
+1. Start the backend server:
+```bash
+cd backend
+export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/gcp-cred.json"
+node server.js
+```
+The backend will run on http://localhost:3001
+
+2. In a new terminal, start the frontend:
+```bash
+cd ..  # Go back to project root
 npm start
 ```
+The frontend will run on http://localhost:3000
 
-The application will be available at `http://localhost:3000`.
+## Known Issues
 
-### Usage
+- Vertex AI endpoint connectivity issues may occur
+- Access token needs manual refresh
+- Image processing limitations
 
-1. Open the application in your web browser.
-2. Upload an image of the crop you want to analyze.
-3. The AI will process the image and display the health status of the crop.
+## Future Improvements
 
-### Contributing
+- [ ] Implement automatic token refresh
+- [ ] Add better error handling
+- [ ] Improve AI model accuracy
+- [ ] Add support for multiple crop types
+- [ ] Implement user authentication
 
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+## Contributing
 
-### License
+Feel free to submit issues and enhancement requests.
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
