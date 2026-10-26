@@ -1,0 +1,254 @@
+[
+ {
+  "id": "apple_apple_scab_1",
+  "file": "apple_apple_scab_1.jpg",
+  "truth": "apple.apple_scab",
+  "crop": "apple",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "apple_apple_scab_2",
+  "file": "apple_apple_scab_2.jpg",
+  "truth": "apple.apple_scab",
+  "crop": "apple",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "apple_healthy_1",
+  "file": "apple_healthy_1.jpg",
+  "truth": "apple.healthy",
+  "crop": "apple",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "apple_healthy_2",
+  "file": "apple_healthy_2.jpg",
+  "truth": "apple.healthy",
+  "crop": "apple",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "background_without_leaves_1",
+  "file": "background_without_leaves_1.jpg",
+  "truth": "not_a_plant",
+  "crop": null,
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "background_without_leaves_2",
+  "file": "background_without_leaves_2.jpg",
+  "truth": "not_a_plant",
+  "crop": null,
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "corn_common_rust_1",
+  "file": "corn_common_rust_1.jpg",
+  "truth": "corn.common_rust",
+  "crop": "corn",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "corn_common_rust_2",
+  "file": "corn_common_rust_2.jpg",
+  "truth": "corn.common_rust",
+  "crop": "corn",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "corn_healthy_1",
+  "file": "corn_healthy_1.jpg",
+  "truth": "corn.healthy",
+  "crop": "corn",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "corn_healthy_2",
+  "file": "corn_healthy_2.jpg",
+  "truth": "corn.healthy",
+  "crop": "corn",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "grape_black_rot_1",
+  "file": "grape_black_rot_1.jpg",
+  "truth": "grape.black_rot",
+  "crop": "grape",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "grape_black_rot_2",
+  "file": "grape_black_rot_2.jpg",
+  "truth": "grape.black_rot",
+  "crop": "grape",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "pepper_bell_bacterial_spot_1",
+  "file": "pepper_bell_bacterial_spot_1.jpg",
+  "truth": "pepper.bacterial_spot",
+  "crop": "pepper",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "pepper_bell_bacterial_spot_2",
+  "file": "pepper_bell_bacterial_spot_2.jpg",
+  "truth": "pepper.bacterial_spot",
+  "crop": "pepper",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "pepper_bell_healthy_1",
+  "file": "pepper_bell_healthy_1.jpg",
+  "truth": "pepper.healthy",
+  "crop": "pepper",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "pepper_bell_healthy_2",
+  "file": "pepper_bell_healthy_2.jpg",
+  "truth": "pepper.healthy",
+  "crop": "pepper",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "potato_early_blight_1",
+  "file": "potato_early_blight_1.jpg",
+  "truth": "potato.early_blight",
+  "crop": "potato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "potato_early_blight_2",
+  "file": "potato_early_blight_2.jpg",
+  "truth": "potato.early_blight",
+  "crop": "potato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "potato_late_blight_1",
+  "file": "potato_late_blight_1.jpg",
+  "truth": "potato.late_blight",
+  "crop": "potato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "potato_late_blight_2",
+  "file": "potato_late_blight_2.jpg",
+  "truth": "potato.late_blight",
+  "crop": "potato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "potato_healthy_1",
+  "file": "potato_healthy_1.jpg",
+  "truth": "potato.healthy",
+  "crop": "potato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "potato_healthy_2",
+  "file": "potato_healthy_2.jpg",
+  "truth": "potato.healthy",
+  "crop": "potato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_bacterial_spot_1",
+  "file": "tomato_bacterial_spot_1.jpg",
+  "truth": "tomato.bacterial_spot",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_bacterial_spot_2",
+  "file": "tomato_bacterial_spot_2.jpg",
+  "truth": "tomato.bacterial_spot",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_early_blight_1",
+  "file": "tomato_early_blight_1.jpg",
+  "truth": "tomato.early_blight",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_early_blight_2",
+  "file": "tomato_early_blight_2.jpg",
+  "truth": "tomato.early_blight",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_late_blight_1",
+  "file": "tomato_late_blight_1.jpg",
+  "truth": "tomato.late_blight",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_late_blight_2",
+  "file": "tomato_late_blight_2.jpg",
+  "truth": "tomato.late_blight",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_leaf_mold_1",
+  "file": "tomato_leaf_mold_1.jpg",
+  "truth": "tomato.leaf_mold",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_leaf_mold_2",
+  "file": "tomato_leaf_mold_2.jpg",
+  "truth": "tomato.leaf_mold",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_septoria_leaf_spot_1",
+  "file": "tomato_septoria_leaf_spot_1.jpg",
+  "truth": "tomato.septoria_leaf_spot",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_septoria_leaf_spot_2",
+  "file": "tomato_septoria_leaf_spot_2.jpg",
+  "truth": "tomato.septoria_leaf_spot",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_tomato_yellow_leaf_curl_virus_1",
+  "file": "tomato_tomato_yellow_leaf_curl_virus_1.jpg",
+  "truth": "tomato.yellow_leaf_curl_virus",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_tomato_yellow_leaf_curl_virus_2",
+  "file": "tomato_tomato_yellow_leaf_curl_virus_2.jpg",
+  "truth": "tomato.yellow_leaf_curl_virus",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_healthy_1",
+  "file": "tomato_healthy_1.jpg",
+  "truth": "tomato.healthy",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ },
+ {
+  "id": "tomato_healthy_2",
+  "file": "tomato_healthy_2.jpg",
+  "truth": "tomato.healthy",
+  "crop": "tomato",
+  "source": "PlantVillage (CC0)"
+ }
+]

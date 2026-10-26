@@ -1,0 +1,671 @@
+{
+ "model": "gemma4:e4b",
+ "recordedAt": "2026-10-26",
+ "host": "darwin/arm64",
+ "results": [
+  {
+   "id": "apple_apple_scab_1",
+   "mode": "given",
+   "givenCrop": "apple",
+   "truth": "apple.apple_scab",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark brown spots\", \"irregular patches\", \"green leaf\"], \"condition\": \"apple.apple_scab\", \"confidence\": \"medium\"}",
+   "ms": 3350,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "apple_apple_scab_2",
+   "mode": "given",
+   "givenCrop": "apple",
+   "truth": "apple.apple_scab",
+   "raw": "{\n  \"leaf_visible\": true,\n  \"visible_signs\": [\n    \"dark green color\",\n    \"some mottling\",\n    \"uneven texture\"\n  ],\n  \"condition\": \"other_issue\",\n  \"confidence\": \"medium\"\n}",
+   "ms": 2402,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "apple_healthy_1",
+   "mode": "given",
+   "givenCrop": "apple",
+   "truth": "apple.healthy",
+   "raw": "{\n  \"leaf_visible\": true,\n  \"visible_signs\": [\n    \"uniform green\",\n    \"no visible spots\"\n  ],\n  \"condition\": \"healthy\",\n  \"confidence\": \"high\"\n}",
+   "ms": 1611,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "apple_healthy_2",
+   "mode": "given",
+   "givenCrop": "apple",
+   "truth": "apple.healthy",
+   "raw": "{\n  \"leaf_visible\": true,\n  \"visible_signs\": [\n    \"uniform dark green color\",\n    \"no visible spots\",\n    \"no visible lesions\"\n  ],\n  \"condition\": \"healthy\",\n  \"confidence\": \"high\"\n}",
+   "ms": 1839,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "corn_common_rust_1",
+   "mode": "given",
+   "givenCrop": "corn",
+   "truth": "corn.common_rust",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"light green color\", \"small reddish-brown spots\", \"some discoloration\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2040,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "corn_common_rust_2",
+   "mode": "given",
+   "givenCrop": "corn",
+   "truth": "corn.common_rust",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"light green color\", \"numerous small reddish-brown spots\", \"some discoloration\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1830,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "corn_healthy_1",
+   "mode": "given",
+   "givenCrop": "corn",
+   "truth": "corn.healthy",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"uniform green\", \"longitudinal striations\"], \"condition\": \"healthy\", \"confidence\": \"medium\"}",
+   "ms": 1399,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "corn_healthy_2",
+   "mode": "given",
+   "givenCrop": "corn",
+   "truth": "corn.healthy",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"uniform green\", \"no distinct spots or lesions visible\"], \"condition\": \"healthy\", \"confidence\": \"medium\"}",
+   "ms": 1326,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "grape_black_rot_1",
+   "mode": "given",
+   "givenCrop": "grape",
+   "truth": "grape.black_rot",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"green leaf\", \"brown spots\", \"darker spots\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1703,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "grape_black_rot_2",
+   "mode": "given",
+   "givenCrop": "grape",
+   "truth": "grape.black_rot",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark green color\", \"veins visible\", \"no obvious spots or lesions\"], \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 1618,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "pepper_bell_bacterial_spot_1",
+   "mode": "given",
+   "givenCrop": "pepper",
+   "truth": "pepper.bacterial_spot",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark brown spots\", \"lesions\", \"holes\"], \"condition\": \"pepper.bacterial_spot\", \"confidence\": \"medium\"}",
+   "ms": 1222,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "pepper_bell_bacterial_spot_2",
+   "mode": "given",
+   "givenCrop": "pepper",
+   "truth": "pepper.bacterial_spot",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark brown spots\", \"irregular lesions\", \"mottling\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1449,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "pepper_bell_healthy_1",
+   "mode": "given",
+   "givenCrop": "pepper",
+   "truth": "pepper.healthy",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"uniform green\", \"veins clearly visible\"], \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 1251,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "pepper_bell_healthy_2",
+   "mode": "given",
+   "givenCrop": "pepper",
+   "truth": "pepper.healthy",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"uniform green\", \"smooth texture\"], \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 1183,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_early_blight_1",
+   "mode": "given",
+   "givenCrop": "potato",
+   "truth": "potato.early_blight",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"yellowing\", \"brown spots\", \"mottling\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1726,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_early_blight_2",
+   "mode": "given",
+   "givenCrop": "potato",
+   "truth": "potato.early_blight",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"green leaf\", \"small brown spots\", \"mottling\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1688,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_late_blight_1",
+   "mode": "given",
+   "givenCrop": "potato",
+   "truth": "potato.late_blight",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"green leaf\", \"dark spots\", \"mottling\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1560,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_late_blight_2",
+   "mode": "given",
+   "givenCrop": "potato",
+   "truth": "potato.late_blight",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark brown spots\", \"mottling\", \"irregular patches\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1728,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_healthy_1",
+   "mode": "given",
+   "givenCrop": "potato",
+   "truth": "potato.healthy",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"uniform green\", \"no visible spots or lesions\"], \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 1490,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_healthy_2",
+   "mode": "given",
+   "givenCrop": "potato",
+   "truth": "potato.healthy",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"uniform green\", \"no visible spots or lesions\"], \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 1575,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_bacterial_spot_1",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.bacterial_spot",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark spots\", \"yellowing\", \"uneven coloration\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2129,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_bacterial_spot_2",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.bacterial_spot",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark spots\", \"green leaf\", \"some discoloration\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1848,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_early_blight_1",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.early_blight",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark brown lesion\", \"uneven coloration\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1842,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_early_blight_2",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.early_blight",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"yellowing patches\", \"dark spots\", \"mottling\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1927,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_late_blight_1",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.late_blight",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"large green leaf\", \"some brown/tan discoloration on the lower part\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1897,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_late_blight_2",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.late_blight",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark brown spots\", \"irregular patches\", \"some discoloration\"], \"condition\": \"tomato.late_blight\", \"confidence\": \"medium\"}",
+   "ms": 1933,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_leaf_mold_1",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.leaf_mold",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark green color\", \"vein pattern visible\", \"some discoloration along veins\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2102,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_leaf_mold_2",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.leaf_mold",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"green with yellowing\", \"vein discoloration\", \"some mottling\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1842,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_septoria_leaf_spot_1",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.septoria_leaf_spot",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark green\", \"mottling\", \"small brown spots\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1845,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_septoria_leaf_spot_2",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.septoria_leaf_spot",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark spots\", \"mottling\", \"uneven color\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1827,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_tomato_yellow_leaf_curl_virus_1",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.yellow_leaf_curl_virus",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"green\", \"veining visible\", \"some discoloration\"], \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1771,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_tomato_yellow_leaf_curl_virus_2",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.yellow_leaf_curl_virus",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"bright green\", \"vein pattern visible\", \"some yellowing\"], \"condition\": \"healthy\", \"confidence\": \"medium\"}",
+   "ms": 1765,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_healthy_1",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.healthy",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark green color\", \"veins visible\", \"no obvious spots or lesions\"], \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 1846,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_healthy_2",
+   "mode": "given",
+   "givenCrop": "tomato",
+   "truth": "tomato.healthy",
+   "raw": "{\"leaf_visible\": true, \"visible_signs\": [\"dark green color\", \"veins visible\", \"no obvious spots or lesions\"], \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 1823,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "apple_apple_scab_1",
+   "mode": "auto",
+   "truth": "apple.apple_scab",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown leaf\", \"visible_signs\": [\"dark brown spots\", \"mottling\", \"uneven coloration\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 3760,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "apple_apple_scab_2",
+   "mode": "auto",
+   "truth": "apple.apple_scab",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"dark green color\", \"uneven surface texture\", \"some dark mottling\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2203,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "apple_healthy_1",
+   "mode": "auto",
+   "truth": "apple.healthy",
+   "raw": "{\n  \"leaf_visible\": true,\n  \"plant\": \"unknown broadleaf plant\",\n  \"visible_signs\": [\n    \"uniform green color\",\n    \"smooth texture\"\n  ],\n  \"crop\": \"other\",\n  \"condition\": \"healthy\",\n  \"confidence\": \"high\"\n}",
+   "ms": 2067,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "apple_healthy_2",
+   "mode": "auto",
+   "truth": "apple.healthy",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"uniform dark green color\", \"no visible spots or lesions\"], \"crop\": \"other\", \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 1800,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "background_without_leaves_1",
+   "mode": "auto",
+   "truth": "not_a_plant",
+   "raw": "{\"leaf_visible\": false, \"plant\": \"unknown\", \"visible_signs\": [\"stone wall\", \"brickwork\", \"foliage\"], \"crop\": \"other\", \"condition\": \"unclear\", \"confidence\": \"low\"}",
+   "ms": 1798,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "background_without_leaves_2",
+   "mode": "auto",
+   "truth": "not_a_plant",
+   "raw": "{\"leaf_visible\": false, \"plant\": \"none\", \"visible_signs\": [\"dark, barren ground\"], \"crop\": \"other\", \"condition\": \"unclear\", \"confidence\": \"low\"}",
+   "ms": 1575,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "corn_common_rust_1",
+   "mode": "auto",
+   "truth": "corn.common_rust",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown leaf\", \"visible_signs\": [\"light green color\", \"brownish spots\", \"mottling\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1949,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "corn_common_rust_2",
+   "mode": "auto",
+   "truth": "corn.common_rust",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown\", \"visible_signs\": [\"light green color\", \"numerous small reddish-brown spots\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2006,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "corn_healthy_1",
+   "mode": "auto",
+   "truth": "corn.healthy",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown plant\", \"visible_signs\": [\"uniform green\", \"parallel veins\"], \"crop\": \"other\", \"condition\": \"healthy\", \"confidence\": \"medium\"}",
+   "ms": 2481,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "corn_healthy_2",
+   "mode": "auto",
+   "truth": "corn.healthy",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"maize\", \"visible_signs\": [\"uniform green\", \"no spots\"], \"crop\": \"other\", \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 2447,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "grape_black_rot_1",
+   "mode": "auto",
+   "truth": "grape.black_rot",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"grape\", \"visible_signs\": [\"dark spots\", \"light green mottling\", \"uneven coloration\"], \"crop\": \"grape\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2515,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "grape_black_rot_2",
+   "mode": "auto",
+   "truth": "grape.black_rot",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"grape\", \"visible_signs\": [\"dark green\", \"vein pattern visible\", \"no obvious spots\"], \"crop\": \"grape\", \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 2616,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "pepper_bell_bacterial_spot_1",
+   "mode": "auto",
+   "truth": "pepper.bacterial_spot",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown\", \"visible_signs\": [\"dark green\", \"brown spots\", \"lesions\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1920,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "pepper_bell_bacterial_spot_2",
+   "mode": "auto",
+   "truth": "pepper.bacterial_spot",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown\", \"visible_signs\": [\"dark brown spots\", \"necrotic lesions\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2942,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "pepper_bell_healthy_1",
+   "mode": "auto",
+   "truth": "pepper.healthy",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"uniform dark green color\", \"prominent midrib and veins\", \"no visible spots or lesions\"], \"crop\": \"other\", \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 3284,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "pepper_bell_healthy_2",
+   "mode": "auto",
+   "truth": "pepper.healthy",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"uniform green\", \"smooth texture\", \"no visible spots\"], \"crop\": \"other\", \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 2873,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_early_blight_1",
+   "mode": "auto",
+   "truth": "potato.early_blight",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown leaf\", \"visible_signs\": [\"yellowing\", \"brown spots\", \"mottling\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1983,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_early_blight_2",
+   "mode": "auto",
+   "truth": "potato.early_blight",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown\", \"visible_signs\": [\"green leaf\", \"brown spots\", \"small reddish spots\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1815,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_late_blight_1",
+   "mode": "auto",
+   "truth": "potato.late_blight",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown leaf\", \"visible_signs\": [\"dark spots\", \"mottling\", \"uneven coloration\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2036,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_late_blight_2",
+   "mode": "auto",
+   "truth": "potato.late_blight",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown leaf\", \"visible_signs\": [\"dark brown spots\", \"mottling\", \"uneven coloration\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2146,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_healthy_1",
+   "mode": "auto",
+   "truth": "potato.healthy",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"uniform dark green color\", \"no visible spots or lesions\"], \"crop\": \"other\", \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 1903,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "potato_healthy_2",
+   "mode": "auto",
+   "truth": "potato.healthy",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"uniform green\", \"vein structure visible\", \"no visible spots or lesions\"], \"crop\": \"other\", \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 2031,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_bacterial_spot_1",
+   "mode": "auto",
+   "truth": "tomato.bacterial_spot",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown\", \"visible_signs\": [\"dark green\", \"yellowing patches\", \"small brown spots\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1921,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_bacterial_spot_2",
+   "mode": "auto",
+   "truth": "tomato.bacterial_spot",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"dark green color\", \"small brown spots\", \"some reddish-brown discoloration\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1977,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_early_blight_1",
+   "mode": "auto",
+   "truth": "tomato.early_blight",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"ivy\", \"visible_signs\": [\"dark spots\", \"uneven coloration\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1701,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_early_blight_2",
+   "mode": "auto",
+   "truth": "tomato.early_blight",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown\", \"visible_signs\": [\"yellowing patches\", \"dark spots\", \"green and yellow coloration\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1833,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_late_blight_1",
+   "mode": "auto",
+   "truth": "tomato.late_blight",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"large area of brown/tan discoloration\", \"green leaf tissue\", \"vein structure visible\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2256,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_late_blight_2",
+   "mode": "auto",
+   "truth": "tomato.late_blight",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown\", \"visible_signs\": [\"dark brown patch\", \"green leaf\", \"vein pattern visible\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1945,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_leaf_mold_1",
+   "mode": "auto",
+   "truth": "tomato.leaf_mold",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"dark green color\", \"vein pattern visible\", \"some discoloration along veins\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2021,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_leaf_mold_2",
+   "mode": "auto",
+   "truth": "tomato.leaf_mold",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"green with yellowing edges\", \"some mottling\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 1850,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_septoria_leaf_spot_1",
+   "mode": "auto",
+   "truth": "tomato.septoria_leaf_spot",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"dark green\", \"mottling\", \"small brown spots\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2026,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_septoria_leaf_spot_2",
+   "mode": "auto",
+   "truth": "tomato.septoria_leaf_spot",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"dark green\", \"some reddish-brown spots\", \"vein pattern visible\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2091,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_tomato_yellow_leaf_curl_virus_1",
+   "mode": "auto",
+   "truth": "tomato.yellow_leaf_curl_virus",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown broadleaf plant\", \"visible_signs\": [\"green with dark green veins\", \"mottling\", \"uneven coloration\"], \"crop\": \"other\", \"condition\": \"other_issue\", \"confidence\": \"medium\"}",
+   "ms": 2099,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_tomato_yellow_leaf_curl_virus_2",
+   "mode": "auto",
+   "truth": "tomato.yellow_leaf_curl_virus",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"unknown leaf\", \"visible_signs\": [\"bright green\", \"yellowish variegation\", \"vein pattern visible\"], \"crop\": \"other\", \"condition\": \"healthy\", \"confidence\": \"medium\"}",
+   "ms": 1868,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_healthy_1",
+   "mode": "auto",
+   "truth": "tomato.healthy",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"ivy\", \"visible_signs\": [\"dark green\", \"vein pattern visible\", \"no obvious spots\"], \"crop\": \"other\", \"condition\": \"healthy\", \"confidence\": \"high\"}",
+   "ms": 1908,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  },
+  {
+   "id": "tomato_healthy_2",
+   "mode": "auto",
+   "truth": "tomato.healthy",
+   "raw": "{\"leaf_visible\": true, \"plant\": \"large-leafed plant\", \"visible_signs\": [\"dark green color\", \"veining visible\", \"no obvious spots or lesions\"], \"crop\": \"other\", \"condition\": \"healthy\", \"confidence\": \"medium\"}",
+   "ms": 1878,
+   "model": "gemma4:e4b",
+   "recordedAt": "2026-10-26"
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "model": "gemma4:e4b",
+ "recordedAt": "2026-10-26",
+ "modes": {
+  "given": {
+   "n": 34,
+   "leafImages": 34,
+   "healthyImages": 10,
+   "diseasedImages": 24,
+   "backgroundImages": 0,
+   "healthyVsProblemRight": {
+    "raw": 94.1,
+    "validated": 94.1
+   },
+   "healthyVsProblemWrong": {
+    "raw": 2,
+    "validated": 1
+   },
+   "abstained": {
+    "raw": 0,
+    "validated": 1
+   },
+   "diseaseNamed": {
+    "raw": 3,
+    "validated": 3
+   },
+   "diseaseNamedRight": {
+    "raw": 3,
+    "validated": 3
+   },
+   "diseaseNamedPrecision": {
+    "raw": 100,
+    "validated": 100
+   },
+   "diseaseExactRecall": 12.5,
+   "healthyCorrect": 100,
+   "backgroundRejected": null,
+   "cropIdentified": 100,
+   "validatorChanged": 1,
+   "exactCorrect": {
+    "raw": 38.2,
+    "validated": 38.2
+   },
+   "latencyMs": {
+    "median": 1823,
+    "p95": 2402
+   },
+   "perClass": {
+    "apple.apple_scab": "1/2",
+    "apple.healthy": "2/2",
+    "corn.common_rust": "0/2",
+    "corn.healthy": "2/2",
+    "grape.black_rot": "0/2",
+    "pepper.bacterial_spot": "1/2",
+    "pepper.healthy": "2/2",
+    "potato.early_blight": "0/2",
+    "potato.healthy": "2/2",
+    "potato.late_blight": "0/2",
+    "tomato.bacterial_spot": "0/2",
+    "tomato.early_blight": "0/2",
+    "tomato.healthy": "2/2",
+    "tomato.late_blight": "1/2",
+    "tomato.leaf_mold": "0/2",
+    "tomato.septoria_leaf_spot": "0/2",
+    "tomato.yellow_leaf_curl_virus": "0/2"
+   }
+  },
+  "auto": {
+   "n": 36,
+   "leafImages": 34,
+   "healthyImages": 10,
+   "diseasedImages": 24,
+   "backgroundImages": 2,
+   "healthyVsProblemRight": {
+    "raw": 94.1,
+    "validated": 32.4
+   },
+   "healthyVsProblemWrong": {
+    "raw": 2,
+    "validated": 2
+   },
+   "abstained": {
+    "raw": 0,
+    "validated": 21
+   },
+   "diseaseNamed": {
+    "raw": 0,
+    "validated": 0
+   },
+   "diseaseNamedRight": {
+    "raw": 0,
+    "validated": 0
+   },
+   "diseaseNamedPrecision": {
+    "raw": null,
+    "validated": null
+   },
+   "diseaseExactRecall": 0,
+   "healthyCorrect": 0,
+   "backgroundRejected": 100,
+   "cropIdentified": 5.9,
+   "validatorChanged": 21,
+   "exactCorrect": {
+    "raw": 5.6,
+    "validated": 5.6
+   },
+   "latencyMs": {
+    "median": 2021,
+    "p95": 3284
+   },
+   "perClass": {
+    "apple.apple_scab": "0/2",
+    "apple.healthy": "0/2",
+    "corn.common_rust": "0/2",
+    "corn.healthy": "0/2",
+    "grape.black_rot": "0/2",
+    "not_a_plant": "2/2",
+    "pepper.bacterial_spot": "0/2",
+    "pepper.healthy": "0/2",
+    "potato.early_blight": "0/2",
+    "potato.healthy": "0/2",
+    "potato.late_blight": "0/2",
+    "tomato.bacterial_spot": "0/2",
+    "tomato.early_blight": "0/2",
+    "tomato.healthy": "0/2",
+    "tomato.late_blight": "0/2",
+    "tomato.leaf_mold": "0/2",
+    "tomato.septoria_leaf_spot": "0/2",
+    "tomato.yellow_leaf_curl_virus": "0/2"
+   }
+  }
+ }
+}
